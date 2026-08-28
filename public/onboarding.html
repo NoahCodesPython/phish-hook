@@ -10,8 +10,12 @@
     <main>
       <nav>
         <div class="logo">
-          <img src="phish-hook-logo.svg" alt="Phish Hook logo" />
+          <img src="phish-hook-logo.jpeg" alt="Phish Hook logo" />
           <span><b>Phish Hook</b><small>DECEPTION DEFENSE</small></span>
+        </div>
+        <div class="navLinks">
+          <a href="#scenarios">Scenarios</a>
+          <a href="#install">Install</a>
         </div>
         <span class="status">● LOCAL PROTECTION ACTIVE</span>
       </nav>
@@ -28,9 +32,14 @@
             <a class="button" href="./phish-hook-extension.zip" download>Download extension zip</a>
             <a class="button ghost" href="./demo.html">Open interactive demo</a>
           </div>
+          <div class="trustRow">
+            <span>MV3 extension</span>
+            <span>URL + QR defense</span>
+            <span>Plain-language explanations</span>
+          </div>
         </div>
         <div class="shield">
-          <img src="phish-hook-logo.svg" alt="Phish Hook logo" />
+          <img src="phish-hook-logo.jpeg" alt="Phish Hook logo" />
           <span>TRUST<br />IS A SIGNAL</span>
         </div>
       </section>
@@ -42,7 +51,7 @@
         <article><b>04</b><strong>▣ Protect</strong><p>Run locally in the browser with no external upload of user browsing data.</p></article>
       </section>
 
-      <section class="demo panel">
+      <section class="demo panel" id="scenarios">
         <div>
           <span class="eyebrow">SCENARIO LIBRARY</span>
           <h2>More examples, including QR phishing</h2>
@@ -80,7 +89,28 @@
         </div>
       </section>
 
-      <section class="install">
+      <section class="proof panel">
+        <div class="proofHead">
+          <span class="eyebrow">WHAT USERS SEE</span>
+          <h2>Clear, guided decisions instead of guesswork</h2>
+        </div>
+        <div class="proofGrid">
+          <article>
+            <b>Real-time risk score</b>
+            <p>A destination score with safe, suspicious, and high-risk labels at a glance.</p>
+          </article>
+          <article>
+            <b>Why this is risky</b>
+            <p>Specific reasons like lookalike domains, credential fields, and suspicious TLDs.</p>
+          </article>
+          <article>
+            <b>Safe next action</b>
+            <p>A trusted official URL is provided when impersonation is detected.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="install" id="install">
         <div>
           <span class="eyebrow">INSTALLATION</span>
           <h2>Install in Chrome in under a minute</h2>
@@ -97,6 +127,10 @@
           <li><b>04</b><span>Start protected browsing</span></li>
         </ol>
       </section>
+
+      <footer>
+        <small>Phish Hook extension • Built for practical phishing awareness and prevention.</small>
+      </footer>
     </main>
 
     <script>

@@ -20,4 +20,4 @@ This produces:
 
 ## Logo
 
-The project logo is a warning shield with a hooked security glyph in `public/phish-hook-logo.svg`.
+The project logo is stored as `public/phish-hook-logo.jpeg` and is used on the landing page.
