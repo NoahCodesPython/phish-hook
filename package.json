@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "package:extension": "cd dist && zip -r ../public/phish-hook-extension.zip . -x \"phish-hook-extension.zip\"",
+    "release:extension": "npm run build && npm run package:extension"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
