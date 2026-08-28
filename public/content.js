@@ -1,0 +1,1 @@
+function inspectPage(){const password=!!document.querySelector('input[type="password"]');const form=document.querySelector('form');return {title:document.title,hasPassword:password,formAction:form?.action||''}} chrome.runtime.sendMessage({type:'PAGE_INSPECTED',payload:inspectPage()});
